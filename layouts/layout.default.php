@@ -137,7 +137,7 @@
     <?php if(Manager::isUsingDefaultConfiguration()): ?>
     <div class="alert alert-error" style="margin-top: 16px;">
         <button type="button" class="close" data-dismiss="alert">×</button>
-        <strong>Warning!</strong> Your manager is actually configured with default user. Please change your configuration.
+        <strong>Security Warning!</strong> Your manager is currently configured with default user. Please change your configuration.
     </div>
     <?php endif; ?>
 
